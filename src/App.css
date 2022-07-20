@@ -1,0 +1,120 @@
+.body{
+  background: rgb(96,127,247);
+  background: linear-gradient(0deg, rgba(96,127,247,1) 0%, rgba(221,230,248,1) 65%);
+    
+}
+.title{
+  text-align: center;
+  border: solid;
+  background-color: white;
+  border-radius: 20px;
+  width: 55rem;
+  height: 6rem;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 50vh;
+  box-shadow: 14px 6px 2px 3px #607ff7;
+}
+
+.Header{
+display: flex;
+justify-content: center;
+background-color: #dde6f8;
+}
+
+
+.Form{
+  margin: 50px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  height: 720px;
+  width: 450px;
+  padding: 25px;
+  margin-left: 70vh;
+  box-shadow: 14px 6px 2px 3px #607ff7;
+  border: solid;
+}
+
+.Label{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+input{
+  display: block;
+  width: 90%;
+  border: none;
+  border-bottom: 5px solid rgba(0,0,0,1);
+  min-width: 250px;
+  outline: none;
+  color: rgba(0,0,0,1);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.input-container{
+  margin: 25px;
+}
+
+.register, .clear{
+    background-color: #607ff7;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 15px;
+    outline: 0;
+    text-align: center;
+    width: 60%;
+    margin-left: 85px;
+}
+.register .clear:active {
+  background-color: #a1bbe3;
+}
+
+.another{
+  text-align: center;
+  margin: 30px;
+  padding: 50px;
+}
+
+.card{
+  padding: 35px;
+  padding-left: 70px;
+  margin: 50px;
+  margin-left: 45vh;
+  border-radius: 5px;
+  position: relative;
+  background-color: aliceblue;
+  width: 45%;
+}
+
+.stylebutton{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 130px;
+  top: 65px;
+  gap: 25px;
+}
+
+.Editbutton{
+  background-color: #4c5bcd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+.Deletebutton{
+  padding: 15px;
+  background-color: #f53c52;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.Editbutton, .Deletebutton{
+  font-size: 55px;
+  padding: 15px;
+}
